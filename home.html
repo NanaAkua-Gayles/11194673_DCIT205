@@ -5,6 +5,10 @@
     <title>UG| Computer Science Department</title>
 
     <style>
+        body{
+            font-family: Arial;
+        }
+
     .grid-container{
         display: grid;
        grid-template-columns: auto auto;
@@ -35,13 +39,13 @@
 
     }
     #text{
-        font-size: 30px;
+        font-size: 20px;
         color: rgb(0, 102, 225);
     }
 
     table{
         height: 500px;
-        font-size: 22px;
+        font-size: 20px;
         font-style: italic;
     }
     #studentimg{
@@ -54,10 +58,18 @@ font-style: normal;
 font-size: 20px;
    }
 
+   .Table{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(128, 0, 75);
+   }
     </style>
 </head>
 
-<body background="ash.jpeg">
+<body>
       <div class="grid-container">
       <div class="grid-item">
         <img id="image" src="logo.jpeg">
@@ -114,73 +126,61 @@ font-size: 20px;
                 </tr> 
              
             </table>
-            
             <br><br><br><br>
+    
+    <div class="Table">
+        <div class="item">
+            <div><b>Academics</b></div>
+            <div>Undergraduate Courses</div>
+            <div>Graduate Courses (MPhil Computer Science)</div>
+            <div>Graduate Courses (Msc Computer Science)</div>
+            <div> Graduate Courses (PhD)</div>
+            <div>Academic Calendar </div>
+            <div>Level 200 & 300 Timetable </div>
+            <div>Placements For Level 200 students </div>
+        </div>
 
-        <table id="info">
-            <tr>
-                <td><b><a href="academiccalendar.html">Academics</a></b><br>
-                Undergraduate Courses<br>
-                Graduate Courses (MPhil Computer Science)<br>
-                Graduate Courses (Msc Computer Science)<br>
-                Graduate Courses (PhD)<br>
-                Academic Calendar <br>
-                Level 200 & 300 Timetable <br>
-                Placements For Level 200 students <br><br>
-                </td>
-    </tr>
+        <div class="item">
+            <div><b>Admissions</b></div>
+            <div> Undergraduate</div>
+            <div> Graduate </div>
+            <div>International students </div>
+            <div>Entry Requirements</div>
+            <div></div>
+        </div>
 
-    <tr>
-        <td><b><a href="admission.html">Admissions</a></b><br>
-        Undergraduate <br>
-        Graduate <br>
-        International students <br>
-        Entry Requirements <br><br>
-        </td>
-    </tr>
+        <div class="item">
+            <div><b>Research</b> </div>
+            <div>Research at DCS </div>
+            <div> Research Impact </div>
+            <div> Libraries </div>
+        </div>
 
-    <tr>
-        <td><b>Research</b> <br>
-        Research at DCS <br>
-        Research Impact <br>
-        Libraries <br><br>        
-        </td>
-    </tr>
+        <div class="item">
+            <br>
+            <div><b>About The Department</b></div>
+            <div>Introducing DCS</div>
+            <div> Head Of Department's office </div>
+            <div>Faculty</div>
+        </div>
 
-    <tr>
-        <td><b><a href="about.html">About The Department</a></b><br>
-        Introducing DCS <br>
-        Head Of Department's office <br>
-        Faculty <br><br>
-        </td>
-    </tr> 
+        <div class="item">
+            <br>
+            <div><b>Newsletter</b></div>
+            <div>Be the first to be informed about our update </div><br>
+            <div><button>Enter Your Email Address</button> </div>
+        </div>
 
-    <tr>
-        <td><b>Newsletter</b><br>
-        Be the first to be informed about our update <br>
-        <button>Enter Your Email Address</button> <br><br>
-        </td>
-    </tr>
-
-    <tr>
-        <td><b>Contact Us</b><br><br>
-        <b>On Phone</b><br>
-            +233 501 382 035 <br>
-            +233 559 145 698 <br><br>
-
-            <b>Via Email</b> <br>
-            dcs@ug.edu.gh <br><br>
-        </td>
-    </tr>
-
-    <tr>
-        <td><b>Location</b><br>
-        University of Ghana, Legon Campus <br>
-        Opposite The Mathematics Department <br><br>
-        </td>
-    </tr>
-</table>
-
-
+        <div class="item">
+            <br>
+            <div><b>Contact Us</b></div>
+            <div><b>On Phone</b></div>
+            <div>+233 501 382 035 </div>
+            <div>+233 559 145 698 </div>
+            <div><b>Via Email</b> </div>
+            <div> dcs@ug.edu.gh </div>
+            <div><b>Location</b></div>
+            <div>University of Ghana, Legon Campus</div>
+            <div>Opposite The Mathematics Department </div>
 </body>
 </html>

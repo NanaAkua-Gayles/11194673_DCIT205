@@ -4,6 +4,10 @@
 
         <style>
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .grid-container{
         display: grid;
        grid-template-columns: auto auto;
@@ -23,7 +27,7 @@
     }
 
             table{
-                color: white;
+                color: rgb(0, 140, 255);
                 font-size: 20;
             }
 #photo{
@@ -35,12 +39,34 @@
     width: 400px;
 }
 
+    #header{
+        height: 25px;
+        background-color: gold;
+    }
+
+    #header2{
+        height: 35px;
+        background-color: rgb(0, 204, 255);
+    }
+
+    .Table{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: gold;
+   }
+    </style>
+</head>
 
         </style>
 
      </head>
 
-    <body background="ash.jpeg">
+    <body>
+
+        <hr id="header">
 
         <div class="grid-container">
             <div class="grid-item">
@@ -54,10 +80,12 @@
              <div class="items"> <a href="resources.html">RESOURCES</a>  </div>
                    
           </div>
-            </div>  
-            <br><br><br><br><br><br>
-        
-    <table>
+            </div>  <br><br><br>
+            <hr id="header">
+            <br><br><br>
+
+
+    <table style="text-align: justify;">
         <tr>
             <td><img id="photo" src="ab.jpeg" alt="happyCSstudents"></td>
             <td><h1>Hi!</h1>
@@ -71,7 +99,11 @@
                 </td>
             </tr>
         </table> 
-        <br><br><br><br><br><br>
+        <br><br><br>
+        
+        <hr id="header2">
+
+        <br><br><br>
 
             <table>
                 <tr>
@@ -93,7 +125,62 @@
 
                     <td><img id="trail" src="ab2.jpeg" alt="Learnedstudents"></td>
             </tr>
-    </table>
+    </table> <br><br><br><br><br>
     
+    <div class="Table">
+        <div class="item">
+            <div><b>Academics</b></div>
+            <div>Undergraduate Courses</div>
+            <div>Graduate Courses (MPhil Computer Science)</div>
+            <div>Graduate Courses (Msc Computer Science)</div>
+            <div> Graduate Courses (PhD)</div>
+            <div>Academic Calendar </div>
+            <div>Level 200 & 300 Timetable </div>
+            <div>Placements For Level 200 students </div>
+        </div>
+
+        <div class="item">
+            <div><b>Admissions</b></div>
+            <div> Undergraduate</div>
+            <div> Graduate </div>
+            <div>International students </div>
+            <div>Entry Requirements</div>
+            <div></div>
+        </div>
+
+        <div class="item">
+            <div><b>Research</b> </div>
+            <div>Research at DCS </div>
+            <div> Research Impact </div>
+            <div> Libraries </div>
+        </div>
+
+        <div class="item">
+            <br>
+            <div><b>About The Department</b></div>
+            <div>Introducing DCS</div>
+            <div> Head Of Department's office </div>
+            <div>Faculty</div>
+        </div>
+
+        <div class="item">
+            <br>
+            <div><b>Newsletter</b></div>
+            <div>Be the first to be informed about our update </div><br>
+            <div><button>Enter Your Email Address</button> </div>
+        </div>
+
+        <div class="item">
+            <br>
+            <div><b>Contact Us</b></div>
+            <div><b>On Phone</b></div>
+            <div>+233 501 382 035 </div>
+            <div>+233 559 145 698 </div>
+            <div><b>Via Email</b> </div>
+            <div> dcs@ug.edu.gh </div>
+            <div><b>Location</b></div>
+            <div>University of Ghana, Legon Campus</div>
+            <div>Opposite The Mathematics Department </div>
+
 </body>
 </html>
