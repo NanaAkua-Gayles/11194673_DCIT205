@@ -5,18 +5,18 @@
   <style>
 
         body{
-            font-family: Arial;
+            font-family: Arial, Helvetica, sans-serif
         }
 
     #Logo{
-        height: 120px;
+        height: 90px;
     }
 
     .head{
         display: grid;
         grid-template-columns: auto auto auto auto;
         text-align: center;
-        background-color: gold;
+        background-color: rgb(51, 128, 0);
         padding: 17px;
         font-size: 25px;
     }
@@ -55,6 +55,18 @@
     width: 350px;
     padding: 2px;
     }
+
+    #header{
+        height: 50px;
+        background-color: gold;
+    }
+
+    .footertab{
+        background-color: rgb(0, 110, 255);
+        text-align: center;
+        padding: 20px;
+    }
+
 </style>
 
 
@@ -62,10 +74,12 @@
 </head>
 
 <body>
+    <hr id="header">
 
-        <div><img id="Logo" src="logo.jpeg" alt="bannerS"></div>
+        <div><img id="Logo" src="UG.jpeg" alt="bannerS"></div>
 
-        <p style="text-align: center; font-size: 30px; color: green;"><b>Welcome To The Freshman Page!</b></p> <br><br>
+        <p style="text-align: center; font-size: 30px; color: chocolate;"><b>The University of Ghana Welcomes You 
+            To The Freshman Page!</b></p> <br><br>
 
         <div class="head">
             <div><a href="home.html">Home</a></div>
@@ -77,7 +91,7 @@
     
     <div class="tab">
         <div class="innertab">
-        <div style="background-color: aqua; padding: 15px;">UG ADMISSION LIST</div>
+        <div style="background-color: rgb(0, 110, 255); padding: 15px;">UG ADMISSION LIST</div>
         <div><img id="data1" src="phone.jpeg" alt="admittedstudent"></div>
         <div>Presented here is a compilation of
             students who have been accepted into <br>
@@ -88,7 +102,7 @@
     </div>
 
     <div class="innertab">
-        <div style="background-color: aqua; padding: 15px;">PAYMENT OF FEES</div>
+        <div style="background-color: rgb(0, 110, 255); padding: 15px;">PAYMENT OF FEES</div>
         <div><img id="data3" src="Money.jpeg" alt="schoolfees"></div>
         <div>Students are required to remit all <br>
             university fees to the designated <br>
@@ -100,7 +114,7 @@
     </div>
 
     <div class="innertab">
-        <div style="background-color: aqua; padding: 15px;">REGISTRATION</div>
+        <div style="background-color: rgb(0, 110, 255); padding: 15px;">REGISTRATION</div>
         <div><img id="data4" src="OIP (8).jpeg" alt="laptop"></div>
         <div>Admitted students are advised to <br>
             adhere to the following instructions<br> 
@@ -112,7 +126,7 @@
     </div>
 
         <div class="innertab">
-        <div style="background-color: aqua; padding: 15px;">ACCOMODATION</div>
+        <div style="background-color: rgb(0, 110, 255); padding: 15px;">ACCOMODATION</div>
         <div><img id="data5" src="hostel.jpeg" alt="schoolhostel"></div>
         <div>
             An announcement regarding the online <br>
@@ -124,6 +138,14 @@
         
     </div>
     </div>    
+<br><br><br><br><br><br>
+
+    <footer>
+    <div class="footertab">
+      <p class="footer-text">University of Ghana|Department of Computer Science @2023. All rights reserved.</p>
+    </div>
+
+
 
 </body>
 </html>
