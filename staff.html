@@ -1,92 +1,193 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>University of Ghana|Staff</title>
+  <title>Staff Page</title>
   <style>
-    /* CSS styles go here */
     body {
       font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
       margin: 0;
-      padding: 0;
-      background-color: #f8f8f8;
     }
-
+    
     header {
       background-color: #333;
       color: #fff;
       padding: 20px;
       text-align: center;
     }
-
+    
     h1 {
-      font-size: 36px;
-      margin-top: 10px;
+      margin: 0;
     }
-
-    main {
+    
+    .container {
+      max-width: 960px;
+      margin: 20px auto;
       padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .staff-member {
-      background-color: #fff;
-      border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      margin-bottom: 20px;
     }
-
-    .staff-member h2 {
-      font-size: 24px;
+    
+    .staff-member {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
     }
-
-    .staff-member p {
-      margin-top: 10px;
+    
+    .staff-member:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
-
+    
     .staff-member img {
-      width: 100%;
-      max-width: 200px;
-      border-radius: 5px;
-      margin-bottom: 10px;
+      flex-shrink: 0;
+      margin-right: 20px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
     }
-
+    
+    .staff-member .details {
+      flex-grow: 1;
+    }
+    
+    .staff-member h3 {
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .staff-member p {
+      margin: 5px 0;
+      color: #888;
+    }
+    
     footer {
       background-color: #333;
       color: #fff;
-      padding: 10px;
+      padding: 20px;
       text-align: center;
+    }
+    
+    .footer-text {
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>University Staff</h1>
+    <h1>Our Staff</h1>
   </header>
-
-  <main>
+  
+  <div class="container">
     <div class="staff-member">
-      <img src="staff1.jpg" alt="Staff 1">
-      <h2>John Doe</h2>
-      <p>Professor</p>
-      <p>Department of Computer Science</p>
+      <div class="details">
+        <h3>Anundi Mark</h3>
+        <p>Position: Senior Headmaster</p>
+      </div>
     </div>
 
     <div class="staff-member">
-      <img src="staff2.jpg" alt="Staff 2">
-      <h2>Jane Smith</h2>
-      <p>Associate Professor</p>
-      <p>Department of Mathematics</p>
+      <div class="details">
+        <h3>Agurumoak Mark</h3>
+        <p>Position: Head Master</p>
+      </div>
+    </div>
+    
+    <div class="staff-member">
+      <div class="details">
+        <h3>Appiah Bismark Kofi</h3>
+        <p>Position: Senior Administrative Assistant</p>
+      </div>
+    </div>
+    
+    <div class="staff-member">
+      <div class="details">
+        <h3>Atiadze Lawrenda Atta</h3>
+        <p>Position: Administrative Assistant</p>
+      </div>
     </div>
 
     <div class="staff-member">
-      <img src="staff3.jpg" alt="Staff 3">
-      <h2>Mark Johnson</h2>
-      <p>Assistant Professor</p>
-      <p>Department of Physics</p>
+      <div class="details">
+        <h3>Abekoe Mark K.</h3>
+        <p>Position: Professor</p>
+      </div>
     </div>
-  </main>
 
+    <div class="staff-member">
+      <div class="details">
+        <h3>Birikorang Attakorah</h3>
+        <p>Position: Senior Lecturer</p>
+      </div>
+    </div>
+
+    <div class="staff-member">
+      <div class="details">
+        <h3>Alongya Mark-Anthony Apuri</h3>
+        <p>Position: Chief Administrative Assistant</p>
+      </div>
+    </div>
+
+    <div class="staff-member">
+      <div class="details">
+        <h3>Adjei Nicholas Atta Jnr.</h3>
+        <p>Position: Senior Teacher</p>
+      </div>
+    </div>
+
+    <div class="staff-member">
+      <div class="details">
+        <h3>Attah Paul</h3>
+        <p>Position: Lecturer</p>
+      </div>
+    </div>
+
+    <div class="staff-member">
+      <div class="details">
+        <h3>Attah Dzifa Abra</h3>
+        <p>Lecturer</p>
+      </div>
+    </div>
+
+    <var>
+      <div class="staff-member">
+        <div class="details">
+          <h3>Attah Simon Kwaku</h3>
+          <p>Position: Part-time Senior Lecturer</p>
+        </div>
+      </div>
+
+      <div class="staff-member">
+        <div class="details">
+          <h3>Attafuah Priscilla Yeye Adumoah</h3>
+          <p>Position: Assistant Lecturer</p>
+        </div>
+      </div>
+
+      <div class="staff-member">
+        <div class="details">
+          <h3>Amenyo-Xa Mark Seyram</h3>
+          <p>Position: Assistant Lecturer</p>
+        </div>
+      </div>
+
+      <div class="staff-member">
+        <div class="details">
+          <h3>Ampofo Mark Ohene6</h3>
+          <p>Position: Manager</p>
+        </div>
+      </div>
+    </var>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <p class="footer-text">University of Ghana|Department of Computer Science @2023. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
